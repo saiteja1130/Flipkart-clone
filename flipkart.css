@@ -91,6 +91,12 @@ body{
     background-color: white !important;
     margin-bottom: 8px !important;
 }
+#best-seller-items-section{
+    overflow-x: auto;
+}
+#best-seller-control{
+    border-radius: 50% !important; 
+}
 @media only screen and (max-width:576px){
     #nav-conatiner{
         padding: 0 15px !important;
@@ -118,6 +124,16 @@ body{
         width: 8px;
         height: 8px;
     }
+    #best-seller-head{
+        font-size: 1.2em;
+    }
+    #best-seller-control{
+        display: none;
+    }
+    #adventure{
+        display: none;
+    }
+
 }
 @media only screen and (max-width:768px){
     #search-bar{
@@ -141,6 +157,9 @@ body{
         border-radius: 50%;
         width: 8px;
         height: 8px;
+    }
+    #adventure{
+        display: none;
     }
     
     
@@ -174,6 +193,9 @@ body{
         width: 8px;
         height: 8px;
     }
+    #adventure{
+        display: none;
+    }
 }
 @media only screen and (max-width:1200px){
     
@@ -190,6 +212,9 @@ body{
         border-radius: 50%;
         width: 8px;
         height: 8px;
+    }
+    #adventure{
+        display: none;
     }
 }
 @media only screen and (max-width:1400px){
