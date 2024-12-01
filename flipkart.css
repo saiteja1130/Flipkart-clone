@@ -75,12 +75,29 @@ body{
 #nav-down-items{
     padding: 0 50px;
 }
+#carousel-controls{
+    background-color: white;
+    color: black;
+    font-size:1.8em;
+    padding: 35px 20px;
+    border-radius: 5px;
+}
+#carousel-img{
+    width: 100%;
+    height: 250px;
+}
+#curousel-indicators-icons{
+    color: white !important;
+    background-color: white !important;
+    margin-bottom: 8px !important;
+}
 @media only screen and (max-width:576px){
     #nav-conatiner{
         padding: 0 15px !important;
     }
     #search-bar{
         width: 100% !important;
+        margin-right: 0 !important;
     }
     #side-menu-show{
         display: block;
@@ -89,7 +106,18 @@ body{
     #nav-down-largescreen-items{
         display: none;
     }
-    
+    #carousel-controls{
+        display: none;
+    }
+    #carousel-img{
+        width: 100%;
+        height: 140px !important;
+    }
+    #curousel-indicators-icons{
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+    }
 }
 @media only screen and (max-width:768px){
     #search-bar{
@@ -101,6 +129,18 @@ body{
     }
     #nav-down-largescreen-items{
         display: none;
+    }
+    #carousel-img{
+        width: 100%;
+        height: 200px;
+    }
+    #carousel-controls{
+        display: none;
+    }
+    #curousel-indicators-icons{
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
     }
     
     
@@ -122,6 +162,18 @@ body{
     #nav-down-largescreen-items{
         display: none;
     }
+    #carousel-img{
+        width: 100%;
+        height: 220px;
+    }
+    #carousel-controls{
+        display: none;
+    }
+    #curousel-indicators-icons{
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+    }
 }
 @media only screen and (max-width:1200px){
     
@@ -131,11 +183,22 @@ body{
     #nav-down-largescreen-items{
         display: none;
     }
+    #carousel-controls{
+        display: none;
+    }
+    #curousel-indicators-icons{
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+    }
 }
 @media only screen and (max-width:1400px){
     
     #nav-min-size-options{
         display: none !important;
+    }
+    #carousel-controls{
+        display: none;
     }
 }
 
