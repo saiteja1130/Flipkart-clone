@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid " id="nav-conatiner">
+        <div class="container-fluid" id="nav-conatiner">
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#side-menu-show"><span id="menu-icon"><i class="fa-solid fa-bars"></i></span></button>
             <div class="offcanvas offcanvas-start w-75" id="side-menu-show">
                 <div class="offcanvas-header" id="side-menu-show-header">
@@ -89,8 +89,15 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-brand">
-                <img id="flip-logo" src="images/Screenshot 2024-11-29 190234.png" width="130">
+            <div class="navbar-brand" >
+                <img id="flip-logo" src="images/Screenshot 2024-11-29 190234.png">
+            </div>
+            <div id="nav-block" class="navbar-brand d-flex align-items-center justify-content-between gap-3">
+                <i class="fa-solid fa-mobile "></i>
+                <div class="mb-1">
+                    <i id="nav-icons" class="fa-regular fa-user"></i>Login
+                </div>
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
             <div class="navbar-brand" id="search-bar">
                 <input type="text" class="w-100 form-control" placeholder="Search for Products, Brands and More">
@@ -188,10 +195,10 @@
                         </ul>
                     </li>
                     <li class="nav-item ">
-                        <button class="btn nav-link nav-link-names"><i id="nav-icons" class="fa-solid fa-cart-shopping"></i>Cart</button>
+                        <button class="btn nav-link nav-link-names"><i id="nav-icons" class="fa-solid fa-cart-shopping"></i><span id="nav-min-size-options">Cart</span></button>
                     </li>
                     <li class="nav-item ">
-                        <button class="btn nav-link nav-link-names"><i id="nav-icons" class="fa-solid fa-toolbox"></i>Become a Seller</button>
+                        <button class="btn nav-link nav-link-names"><i id="nav-icons" class="fa-solid fa-toolbox"></i><span id="nav-min-size-options">Become a Seller</span></button>
                     </li>
                     <li class="nav-item ">
                         <button class="nav-link btn nav-link-names"><i id="nav-icons" class="fa-solid fa-ellipsis-vertical"></i></button>
@@ -201,6 +208,233 @@
         </div>
     </nav>
     <!-- navbar closed -->
+     <!-- nav-down Section -->
+      <div class="container-fluid ps-3 pe-3 mt-2" id="nav-down-largescreen-items">
+        <nav id="nav-down-items" class="d-flex bg-white justify-content-center align-items-center gap-2 ">
+            <div class="card border-0" id="nav-down-cards">
+                <div class="card-body" >
+                    <img src="images/Grocery-1.webp" class="w-75 d-block mx-auto">
+                </div>
+                <button class="btn text-center fw-bold">Grocery</button>
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <img src="images/mobiles-2.webp" class="w-75 d-block mx-auto">
+                </div>
+                <button class="btn text-center fw-bold">Mobiles</button>
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <img src="images/fashion-3.webp" class="w-75 d-block mx-auto">
+                </div>
+                <div class="text-center dropdown ">
+                    <button class="btn border-0 dropdown-toggle p-0 m-0 fw-bold" data-bs-toggle="dropdown">Fashion</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item mb-1 mt-1 ">
+                            <a href="#" class="nav-link ">Men's Top Wear</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Men's Bottom Wear</a>
+                        </li>
+                        
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Women Ethnic</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Men Footwear</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Watches And Accesories</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Women Western</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Bags, Suitcases & luggage</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Kids</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Essentials</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Winter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <img src="images/electronics-4.webp" class="w-75 d-block mx-auto">
+                </div>
+                <div class="dropdown text-center ">
+                    <button class="btn border-0 dropdown-toggle fw-bold" data-bs-toggle="dropdown">Electronics</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link ">Audio</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Electronics GST store</a>
+                        </li>
+                        
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Camera & Accesories</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Computer Peripherls</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Gaming</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Health & Personal Care</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Laptop Accessories</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Laptop And Desktop</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Mobile Accessory</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Power Bank</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Smart Home Automation</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Smart Wearables</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Storage</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Tablets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-0">
+                <div class="card-body" style="width: 112px !important;">
+                    <img src="images/Home &furniture-5.webp" class="w-75 d-block mx-auto ms-4 ">
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-toggle btn border-0 text-center fw-bold" data-bs-toggle="dropdown">Home&furniture</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item mb-1 mt-1 ">
+                            <a href="#" class="nav-link ">Home Furnishings</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Furniture</a>
+                        </li>
+                        
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Living Room Furtniture</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Kitchen & Dining</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Bedroom Furtniture</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Space saving Furniture</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Home Decor</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Tools & Utility</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Work Space Furniture</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Kids Furniture</a>
+                        </li>
+                        <li class="dropdown-item mb-1">
+                            <a href="#" class="nav-link">Lightings & Electricals</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Cleaning & Bath</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Pet & Gardening</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <img src="images/Applicances-6.webp" class="w-75 d-block mx-auto">
+                </div>
+                <button class="btn border-0 text-center fw-bold">Applicances</button>
+            </div>
+            <div class="card border-0">
+                <div class="card-body" style="width: 112px !important;">
+                    <img src="images/flights &Bokkings-7.webp" class="w-75 d-block mx-auto ms-4">
+                </div>
+                <button class="btn border-0 text-center fw-bold">flights &Bokkings</button>
+            </div>
+            <div class="card border-0">
+                <div class="card-body" style="width: 112px !important;">
+                    <img src="images/Beauty, Toys &More-8.png" class="w-75 d-block mx-auto ms-5">
+                </div>
+                <div class="dropdown">
+                    <button class="btn border-0 fw-bold text-center dropdown-toggle" data-bs-toggle="dropdown">Beauty, Toys &More</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link ">Beauty & Personal Care</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Men's Grooming</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Foods & Drinks</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Nutrition & Health</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Baby Care</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Toys & School Supplies</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Sports & Fitness</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Books</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Music</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Stationary & Office Supplies</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Auto  Accessories</a>
+                        </li>
+                        <li class="dropdown-item mb-1 mt-1">
+                            <a href="#" class="nav-link">Safety & Hygeine Essentials</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <img src="images/bikes-9.png" class="w-75 d-block mx-auto">
+                </div>
+                <button class="btn border-0 text-center fw-bold">bikes</button>
+            </div>
+        </nav>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
