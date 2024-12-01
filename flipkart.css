@@ -48,6 +48,9 @@ body{
 .navbar-toggler{
     border: none !important;
 }
+#flip-logo{
+    width: 110px !important;
+}
 #menu-icon{
     font-size: 1.2em;
 }
@@ -61,6 +64,17 @@ body{
 .f-logo{
     border-radius: 50%;
 }
+#nav-menu-options{
+    display: block;
+}
+
+#nav-block{
+    display: none !important;
+    font-size: 1.0em !important;
+}
+#nav-down-items{
+    padding: 0 50px;
+}
 @media only screen and (max-width:576px){
     #nav-conatiner{
         padding: 0 15px !important;
@@ -70,5 +84,58 @@ body{
     }
     #side-menu-show{
         display: block;
+        width: 75% ;
+    }
+    #nav-down-largescreen-items{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    #search-bar{
+        width: 100% !important;
+    }
+    #side-menu-show{
+        display: block;
+        width: 50% ;
+    }
+    #nav-down-largescreen-items{
+        display: none;
+    }
+    
+    
+}
+@media only screen and (max-width:992px){
+    #search-bar{
+        width: 100% !important;
+    }
+    #nav-block{
+        display: flex !important;
+    }
+    #nav-min-size-options{
+        display: none !important;
+    }
+    #side-menu-show{
+        display: block;
+        width: 50% ;
+    }
+    #nav-down-largescreen-items{
+        display: none;
     }
 }
+@media only screen and (max-width:1200px){
+    
+    #nav-min-size-options{
+        display: none !important;
+    }
+    #nav-down-largescreen-items{
+        display: none;
+    }
+}
+@media only screen and (max-width:1400px){
+    
+    #nav-min-size-options{
+        display: none !important;
+    }
+}
+
