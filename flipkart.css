@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    ;
 }
 .navbar{
     background-color: white !important;
@@ -39,6 +41,7 @@ body{
     width: 250px !important;
 }
 .nav-link-names{
+    font-family: "Inter" !important;
     font-size: 1.0em !important;
     color: black !important;
 }
@@ -116,19 +119,22 @@ body{
     border-radius: 50% !important; 
 }
 #best-seller-head{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-family: "Inter" !important;
 }
 #card-items-prices{
     font-size: 0.8rem;
     font-weight: 400 !important;
+    font-family: "Inter" !important;
 }
 #card-item-name{
     font-size: 1.0rem;
+    font-family: "Inter" !important;
 }
 
 @media only screen and (max-width:576px){
     #nav-conatiner{
-        padding: 0 5px !important;
+        padding: 0 10px !important;
     }
     #search-bar{
         width: 100% !important;
@@ -181,7 +187,7 @@ body{
 }
 @media only screen and (max-width:768px){
     #nav-conatiner{
-        padding: 0 5px !important;
+        padding: 0 10px !important;
     }
     #search-bar{
         width: 100% !important;
@@ -227,7 +233,7 @@ body{
 }
 @media only screen and (max-width:992px){
     #nav-conatiner{
-        padding: 0 5px !important;
+        padding: 0 10px !important;
     }
     #search-bar{
         width: 100% !important;
