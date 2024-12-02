@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+#nav-conatiner-main{
+    padding: 0 50px;
+    background-color: rgb(17, 107, 252) !important;
+    color: white !important;
+    padding-left: 200px;
+}
+#search-bar{
+    width: 40%;
+    
+}
+.form-control{
+    background-color: white !important;
+    border: none !important;
+    border-radius: 0;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+#nav-options{
+    width: 400px !important;
+}
+#nav-options-2{
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 30px !important;
+}
+#nav-icons{
+    margin-right: 10px;
+}
+.dropdown-menu {
+    width: 250px !important;
+}
+.nav-link-names{
+    font-family: "Inter" !important;
+    font-size: 1.0em !important;
+    color: black !important;
+}
+#login-button{
+    color: rgb(24, 94, 244) !important;
+    background-color: white;
+    padding: 3px 10px !important;
+    margin-top: 5px;
+    border-radius: 0 !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+#flip-logo{
+    width: 110px !important;
+}
+#menu-icon{
+    font-size: 1.2em;
+}
+.f-logo{
+    border-radius: 50%;
+}
+#nav-menu-options{
+    display: block;
+}
+#nav-block{
+    display: none !important;
+    font-size: 1.0em !important;
+}
+#nav-conatiner-down{
+    box-shadow: 0 0 15px grey;
+}
+#enter-input{
+    border-bottom: 1px solid gray !important;
+}
+#user-agr{
+    font-size: 0.7rem;
+}
+#req-otp{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    padding: 7px ;
+    color: white;
+    margin-top: 15px;
+}
+#new-sign{
+    margin-top: 200px;
+}
+#login-container{
+    width: 50%;
+}
+@media only screen and (max-width:576px){
+    #nav-conatiner{
+        display: none !important;
+    }
+    #login-container{
+        width: 100% !important;
+        
+    }
+    #nav-conatiner-down{
+        display: none !important;
+    }
+    #login-container{
+        margin-top: 0 !important;
+    }
+    #login-name{
+        display: none;
+    }
+    #footer{
+        display: none !important;
+    }
+    #log-box{
+        margin-top: -5px;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+        height: 100vh;
+    }
+    #new-sign{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width:768px){
+    #nav-conatiner{
+        display: none !important;
+    }   
+    #nav-conatiner-down{
+        display: none !important;
+    }
+}
+@media only screen and (max-width:992px){
+    #nav-conatiner{
+        display: none !important;
+    }  
+    #nav-conatiner-down{
+        display: none !important;
+    }
+}
+@media only screen and (max-width:1200px){
+    #nav-conatiner{
+        display: flex;
+    } 
+    #nav-min-size-options{
+        display: none;
+    }
+    #nav-conatiner-down{
+        display: none !important;
+    }
+        
+}
+@media only screen and (max-width:1400px){
+    #nav-min-size-options{
+        display: none;
+    }
+}
+
