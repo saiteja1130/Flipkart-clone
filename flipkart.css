@@ -78,6 +78,15 @@ body{
     display: none !important;
     font-size: 1.0em !important;
 }
+#nav-down-smallscreen-items{
+    display: none;
+}
+
+#all-cat{
+    border: 2px solid rgb(38, 104, 245);
+    border-radius: 50%;
+    padding: 5px;
+}
 #nav-down-items{
     padding: 0 50px;
 }
@@ -100,6 +109,9 @@ body{
 #best-seller-items-section{
     overflow-x: auto;
 }
+#best-seller-items-section::-webkit-scrollbar{
+    display: none;
+}
 #best-seller-control{
     border-radius: 50% !important; 
 }
@@ -113,9 +125,10 @@ body{
 #card-item-name{
     font-size: 1.0rem;
 }
+
 @media only screen and (max-width:576px){
     #nav-conatiner{
-        padding: 0 15px !important;
+        padding: 0 5px !important;
     }
     #search-bar{
         width: 100% !important;
@@ -124,6 +137,12 @@ body{
     #side-menu-show{
         display: block;
         width: 75% ;
+    }
+    #nav-down-smallscreen-items{
+        display: flex !important;
+    }
+    #nav-down-smallscreen-items::-webkit-scrollbar{
+        display: none !important;
     }
     #nav-down-largescreen-items{
         display: none;
@@ -162,7 +181,7 @@ body{
 }
 @media only screen and (max-width:768px){
     #nav-conatiner{
-        padding: 0 15px !important;
+        padding: 0 5px !important;
     }
     #search-bar{
         width: 100% !important;
@@ -171,6 +190,9 @@ body{
     #side-menu-show{
         display: block;
         width: 50% ;
+    }
+    #nav-down-smallscreen-items{
+        display: none;
     }
     #nav-down-largescreen-items{
         display: none;
@@ -205,7 +227,7 @@ body{
 }
 @media only screen and (max-width:992px){
     #nav-conatiner{
-        padding: 0 15px !important;
+        padding: 0 5px !important;
     }
     #search-bar{
         width: 100% !important;
@@ -221,6 +243,9 @@ body{
     #side-menu-show{
         display: block;
         width: 50% ;
+    }
+    #nav-down-smallscreen-items{
+        display: none;
     }
     #nav-down-largescreen-items{
         display: none;
@@ -254,6 +279,9 @@ body{
     #nav-min-size-options{
         display: none !important;
     }
+    #nav-down-smallscreen-items{
+        display: none;
+    }
     #nav-down-largescreen-items{
         display: none;
     }
@@ -273,7 +301,9 @@ body{
     }
 }
 @media only screen and (max-width:1400px){
-    
+    #nav-down-smallscreen-items{
+        display: none;
+    }
     #nav-min-size-options{
         display: none !important;
     }
