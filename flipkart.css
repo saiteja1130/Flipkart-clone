@@ -14,6 +14,11 @@ body{
 }
 #search-bar{
     width: 52%;
+    
+}
+.form-control{
+    background-color: rgb(209, 238, 255) !important;
+    border: none !important;
 }
 .form-control:focus {
     box-shadow: none !important;
@@ -60,6 +65,7 @@ body{
 }
 #side-menu-show{
     display: none;
+    overflow-y: auto;
 }
 .f-logo{
     border-radius: 50%;
@@ -97,6 +103,16 @@ body{
 #best-seller-control{
     border-radius: 50% !important; 
 }
+#best-seller-head{
+    font-size: 2rem;
+}
+#card-items-prices{
+    font-size: 0.8rem;
+    font-weight: 400 !important;
+}
+#card-item-name{
+    font-size: 1.0rem;
+}
 @media only screen and (max-width:576px){
     #nav-conatiner{
         padding: 0 15px !important;
@@ -125,7 +141,7 @@ body{
         height: 8px;
     }
     #best-seller-head{
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
     #best-seller-control{
         display: none;
@@ -133,11 +149,24 @@ body{
     #adventure{
         display: none;
     }
+    #card-items-prices{
+        font-size: 0.6em;
+        font-weight: 400 !important;
+    }
+    #card-item-name{
+        font-size: 0.7em;
+    }
+    
+    
 
 }
 @media only screen and (max-width:768px){
+    #nav-conatiner{
+        padding: 0 15px !important;
+    }
     #search-bar{
         width: 100% !important;
+        margin-right: 0 !important;
     }
     #side-menu-show{
         display: block;
@@ -145,6 +174,9 @@ body{
     }
     #nav-down-largescreen-items{
         display: none;
+    }
+    #best-seller-head{
+        font-size: 1.5em;
     }
     #carousel-img{
         width: 100%;
@@ -161,13 +193,25 @@ body{
     #adventure{
         display: none;
     }
+    #card-items-prices{
+        font-size: 0.6rem !important;
+        font-weight: 400 !important;
+    }
+    #card-item-name{
+        font-size: 0.7rem;
+    }
     
     
 }
 @media only screen and (max-width:992px){
+    #nav-conatiner{
+        padding: 0 15px !important;
+    }
     #search-bar{
         width: 100% !important;
+        margin-right: 0 !important;
     }
+    
     #nav-block{
         display: flex !important;
     }
@@ -196,6 +240,14 @@ body{
     #adventure{
         display: none;
     }
+    #card-items-prices{
+        font-size: 0.8rem !important;
+        font-weight: 400 !important;
+    }
+    #card-item-name{
+        font-size: 0.9rem;
+    }
+    
 }
 @media only screen and (max-width:1200px){
     
@@ -215,6 +267,9 @@ body{
     }
     #adventure{
         display: none;
+    }
+    #Kids-section{
+        display: none !important;
     }
 }
 @media only screen and (max-width:1400px){
